@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Superhero Hangman</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+   
+   
+</head>
+
+<body>
+<div class="container">
+    <div class ="row">
+        <div class = "col-md">
+            <img id ="header" src = "assets/images/superheros.jpg">
+            <p class = "title">Superhero Hangman</p>
+            <br>
+            <br>
+            <h3 id="instructions">Guess a letter to start!</h3>
+        </div>
+    </div>
+    <div class ="row">
+        <div class ="col-md-6">
+           <br>
+           <br>
+           <br>
+            <p id="current">Current Word:<section id="current_word"></section></p>
+          <br>
+          <br>
+          <br>
+          <div class="border">
+            <p id="number">Number of Guesses left: <section id ="guesses_left"></section></p>
+            <br>
+            <p id="letter">Letters already guessed: <section id = "letters_guessed"></section></p>
+            <br>
+            <p class="result">Wins: <span id ="win_count"></span></p>
+            <br>
+            <p class="result">Losses: <span id ="loss_count"></span></p>
+        </div>
+    </div>
+</div>
+    <div class ="col-md-6">
+            <br>
+            
+   <div id ="images">
+       
+   </div>
+    </div>
+</div>
+
+<audio autoplay loop id="themesong">
+    <source src="assets/sounds/Jl.mp3" type="audio/mpeg">
+</audio>
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+
+</body>
+</html>
