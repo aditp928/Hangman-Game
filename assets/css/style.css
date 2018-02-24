@@ -21,14 +21,14 @@ text-align: center;
 #instructions{
     text-align:center;
     font-size:30px;
-    color:darkcyan;
+    color:white;
     font-weight: bold;
 }
 
 #current_word{
     font-size:50px;
     text-align:center;
-    color:black;
+    color:white;
     border:5px dashed  lightcoral ;
 
 
@@ -43,6 +43,8 @@ text-align: center;
 #current{
     font-size:30px;
     text-align:center;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:black;
    
     
@@ -51,7 +53,7 @@ text-align: center;
 
 #guesses_left{
     font-size:30px;
-    color:darkcyan;
+    color:white;
     font-weight: bold;
 }
 
@@ -59,36 +61,41 @@ text-align: center;
 #number{
     font-size:30px;
     font-weight: bold;
-    color:orange;
+    color:black;
     
 }
 
 #letter{
     font-size:30px;
     font-weight: bold;
-    color:orange;
+    color: black;
 }
 
 #letters_guessed{
     font-size:30px;
-    color:darkcyan;
+    color:white;
     font-weight: bold;
 }
 
 #win_count{
     text-align:center;
     font-size:30px;
-    color:darkcyan;
+    color:white;
     font-weight: bold;
 }
 
 .result{
     font-size:30px;
-    color:orange;
+    color:black;
 }
 
 #loss_count{
     font-size:30px;
-    color:darkcyan;
+    color:white;
     font-weight: bold;
+}
+
+.images{
+    float:right;
+    border:5px dashed lightcoral;
 }

@@ -5,19 +5,20 @@ var guessesLeft = document.getElementById("guesses_left");
 var lettersGuessed = document.getElementById("letters_guessed");
 
 
+
 var superHeroes = {
 
     listOfWords: ["batman", "superman", "robin", "nightwing", "wolverine", "deadpool", "cyborg", "cyclops", "storm", "flash", "hulk", "gambit", "beast", "magneto", "groot", "drax", "gamora", "nebula", "starlord"],
 
     pickedWord: '',
-    wins: 0,
-    losses: 0,
     guessedLetters: [],
     guessRemaining: 0,
     placeHolder: '',
     dashes: "_",
     buffer: 6,
-
+    wins: 0,
+    losses: 0,
+    
     gameStart: function () {
         writeDocument();
     },
@@ -46,6 +47,7 @@ var superHeroes = {
 
                 if (this.pickedWord === this.placeHolder) {
                     this.wins++;
+                    alert("You're Right! " + " The word was: " + this.pickedWord);
                     this.gameReset();
                 }
 
@@ -53,9 +55,10 @@ var superHeroes = {
                 this.guessedLetters.push(letterGuessed);
                 this.guessRemaining--;
 
+              
+
                 if (this.guessRemaining == 0) {
-                    alert("You lose!");
-                    this.losses++;
+                    alert("You lose! " + " The word was: " + this.pickedWord);
                     this.gameReset();
                 }
             }
@@ -79,6 +82,7 @@ function writeDocument() {
     guesses_left.textContent = superHeroes.guessRemaining;
     lettersGuessed.textContent = superHeroes.guessedLetters.join(" ");
 }
+
 
 
 document.onkeyup = function (event) {
