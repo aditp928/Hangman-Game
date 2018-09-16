@@ -76,6 +76,14 @@ superHeroes.gameReset();
 superHeroes.gameStart();
 
 
+function adf
+function writeDocument() {
+    winCount.textContent = superHeroes.wins;
+    lossCount.textContent = superHeroes.losses;
+    current.textContent = superHeroes.placeHolder.split('').join(" ");
+    guesses_left.textContent = superHeroes.guessRemaining;
+    lettersGuessed.textContent = superHeroes.guessedLetters.join(" ");
+}
 
 
 
