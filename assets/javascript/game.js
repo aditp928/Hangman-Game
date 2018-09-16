@@ -52,8 +52,8 @@ var superHeroes = {
                 }
 
             } else {
-                this.guessedLetters.push(letterGuessed);
-                this.guessRemaining--;
+                this.guessed.push(cGuess);
+                this.guess--;
 
               
 
@@ -75,13 +75,7 @@ superHeroes.gameReset();
 
 superHeroes.gameStart();
 
-function writeDocument() {
-    winCount.textContent = superHeroes.wins;
-    lossCount.textContent = superHeroes.losses;
-    current.textContent = superHeroes.placeHolder.split('').join(" ");
-    guesses_left.textContent = superHeroes.guessRemaining;
-    lettersGuessed.textContent = superHeroes.guessedLetters.join(" ");
-}
+
 
 
 
