@@ -52,8 +52,8 @@ var superHeroes = {
                 }
 
             } else {
-                this.guessedLetters.push(letterGuessed);
-                this.guessRemaining--;
+                this.guessed.push(cGuess);
+                this.guess--;
 
               
 
@@ -74,6 +74,7 @@ var superHeroes = {
 superHeroes.gameReset();
 
 superHeroes.gameStart();
+
 
 function writeDocument() {
     winCount.textContent = superHeroes.wins;
