@@ -76,7 +76,6 @@ superHeroes.gameReset();
 superHeroes.gameStart();
 
 
-function adf
 function writeDocument() {
     winCount.textContent = superHeroes.wins;
     lossCount.textContent = superHeroes.losses;
