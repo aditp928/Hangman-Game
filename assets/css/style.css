@@ -11,7 +11,7 @@ text-align: center;
 .title{
     font-size: 60px;
     text-align: center;
-    color:blue;
+    color:red;
     font-weight: bold;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
@@ -21,7 +21,7 @@ text-align: center;
 #instructions{
     text-align:center;
     font-size:30px;
-    color:powderblue;
+    color:white;
     font-weight: bold;
 }
 
