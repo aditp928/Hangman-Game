@@ -5,6 +5,8 @@ A Hangman game that will run in the browser, and features dynamically updated HT
 
 Utilizes external file for javascript.
 
+Practices the use of functions, and object orientated programming. 
+
 
 Functions were inialized inside the object called superheroes.
 
