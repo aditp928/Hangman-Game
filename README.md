@@ -3,7 +3,7 @@
 A Hangman game that will run in the browser, and features dynamically updated HTML and CSS powered by your JavaScript code.
 
 
-Practices the use of functions, and object orientated programming. 
+Practices the use of functions,and object orientated programming. 
 
 
 The onkeyup function is listening for user input in this application it is keyboard pushes.
